@@ -1,14 +1,77 @@
 .header {
 }
-.container {
+.hero-container {
 }
+
 .hero {
+  background-color: #576f35;
 }
+
 .hero-text {
+  color: #fbfbfb;
+  padding: 100px 20px 0 20px;
+  margin-bottom: 40px;
 }
 .hero-title {
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  margin-bottom: 20px;
 }
 .hero-description {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
 }
+
 .hero-img-bgr {
+  max-width: 375px;
+  height: 370px;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.2),
+      rgba(20, 20, 20, 0.2)
+    ),
+    url(../img/basket-mob-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    padding: 238px 28px 0 100px;
+    margin-bottom: 50px;
+  }
+
+  .hero-title {
+    font-size: 76px;
+    margin-bottom: 25px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-text {
+    padding: 122px 32px 0 32px;
+    margin-bottom: 50px;
+  }
+
+  .hero-title {
+    font-size: 76px;
+    margin-bottom: 25px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
