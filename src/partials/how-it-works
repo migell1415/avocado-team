@@ -1,18 +1,23 @@
 <section class="how-it-works">
-    <div class="container>
+    <div class="container section-how-is-works">
         <div class="left-section">
-            <img src="../img/person.jpg" alt="Person chopping vegetables">
+            <img src="../img/person.jpg" alt="Person chopping vegetables" />
         </div>
         <div class="right-section">
-            <h2>TO ORDER YOUR <span class="transparent">VEGETABLE</span> BASKET, SIMPLY FOLLOW THESE <span class="transparent">EASY STEPS</span></h2>
-            <ol>
-                <li>Choose the vegetables you want to order by clicking on checkboxes next to them.</li>
-                <li>Click on the basket icon and fill out the form.</li>
-                <li>Sit back and relax! Your fresh vegetable basket will be delivered.</li>
-            </ol>
-            <p>Our baskets are assembled with care and delivered straight to your doorstep.</p>
+        <div class="title">
+            <h2 class="text-title">TO ORDER YOUR <span class="transparent">VEGETABLE</span> BASKET, SIMPLY FOLLOW THESE <span class="transparent">EASY STEPS</span></h2>
+            <p class="paragraph">Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home.</p>
+        </div>
+        <div class="ordered-list">
+            <ol class="items">
+                <li class="item">Choose the vegetables you want to order by clicking on checkboxes next to them.</li>
+                <li class="item">Click on the basket icon and fill out the form.</li>
+                <li class="item">Sit back and relax! Your fresh vegetable basket will be delivered.</li>
+            </ol>  
+        </div>          
         </div>
     </div>
+</section>
 </body>
 </html>
 </section>

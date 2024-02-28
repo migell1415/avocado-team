@@ -1,4 +1,38 @@
-/* styles how it works */
-.left-section {
+/* styles how it works */ 
+
+
+img {
+    border-radius: 30px;
+    border: solid #000000;
     
 }
+
+.section-how-is-works {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    padding: 100px;
+    background-color: #7A3145;
+}
+
+.right-section {
+    padding: 100px 100px 100px 160px;
+    background-color: #576F35;
+}
+
+.text-title {
+    color: #FBFBFB;
+}
+
+.paragraph {
+    color: #FBFBFB;
+}
+
+.items {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
