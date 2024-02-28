@@ -9,22 +9,9 @@
 @import url('./header.css');
 @import url('./hero.css');
 
-.container {
-  margin: 0 auto;
-}
-
 body {
   font-family: 'Inter tight', sans-serif;
   font-size: 14px;
   line-height: 1.28;
   font-weight: 500;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
