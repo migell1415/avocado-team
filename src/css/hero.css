@@ -40,7 +40,7 @@
 
 @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
-  (min-resolution 2dppx) {
+  (min-resolution: 2dppx) {
   .hero-img-bgr {
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.2),
@@ -88,7 +88,7 @@
 
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution 2dppx) {
+    (min-resolution: 2dppx) {
     .hero-img-bgr {
       background-image: linear-gradient(
           rgba(20, 20, 20, 0.2),
@@ -130,7 +130,7 @@
 
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution 2dppx) {
+    (min-resolution: 2dppx) {
     .hero-img-bgr {
       background-image: linear-gradient(
           rgba(20, 20, 20, 0.2),
