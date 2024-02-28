@@ -28,7 +28,6 @@
     line-height: 1.04;
     letter-spacing: -0.72px;
     text-transform: uppercase;
-
   }
 
 
@@ -45,7 +44,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.28;
-
   }
 
 
@@ -195,7 +193,6 @@
       align-items: flex-start;
       gap: 50px;
     }
-
 
    
     .title-reviews {
