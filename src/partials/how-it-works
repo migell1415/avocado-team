@@ -1,0 +1,18 @@
+<section class="how-it-works">
+    <div class="container>
+        <div class="left-section">
+            <img src="../img/person.jpg" alt="Person chopping vegetables">
+        </div>
+        <div class="right-section">
+            <h2>TO ORDER YOUR <span class="transparent">VEGETABLE</span> BASKET, SIMPLY FOLLOW THESE <span class="transparent">EASY STEPS</span></h2>
+            <ol>
+                <li>Choose the vegetables you want to order by clicking on checkboxes next to them.</li>
+                <li>Click on the basket icon and fill out the form.</li>
+                <li>Sit back and relax! Your fresh vegetable basket will be delivered.</li>
+            </ol>
+            <p>Our baskets are assembled with care and delivered straight to your doorstep.</p>
+        </div>
+    </div>
+</body>
+</html>
+</section>
