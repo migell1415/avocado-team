@@ -35,7 +35,7 @@
     url(../img/basket-mob-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -51,6 +51,11 @@
 }
 
 @media screen and (min-width: 375px) {
+  .hero-img-bgr {
+    max-width: 375px;
+    height: 370px;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -73,6 +78,7 @@
 
   .hero-img-bgr {
     min-width: 768px;
+    height: 539px;
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
@@ -108,8 +114,13 @@
     max-width: 504px;
   }
 
+  .hero-description {
+    max-width: 472px;
+  }
+
   .hero-img-bgr {
     min-width: 650px;
+    height: 800px;
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)

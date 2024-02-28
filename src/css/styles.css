@@ -9,6 +9,10 @@
 @import url('./header.css');
 @import url('./hero.css');
 
+.container {
+  margin: 0 auto;
+}
+
 body {
   font-family: 'Inter tight', sans-serif;
   font-size: 14px;
