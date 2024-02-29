@@ -19,18 +19,20 @@ a {
 
 .head {
   margin-top: 20px;
-}
-
-.nav-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  height: 32px;
+  background-color: transparent;
 }
 
 .container {
   max-width: 320px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.nav-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo-head {
@@ -45,18 +47,76 @@ a {
   color: #fbfbfb;
 }
 
-.nav-menu {}
+.nav-menu {
+  display: none;
+}
+
+.nav-link {
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  border-radius: 12px;
+  padding: 12px;
+  width: 114px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.button {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 32px;
   }
+
+  .head {
+    margin-top: 32px;
+    height: 40px;
+}
+
 }
 
 @media screen and (min-width: 1280px) {
+  .head {
+    margin-top: 32px;
+    height: 52px;
+  }
+
   .container {
     max-width: 1280px;
     padding: 0 100px;
   }
+
+  .nav-menu {
+    display: flex;
+    gap: 8px;
+  }
+
+  .ic-head-menu {
+    display: ;
+  }
+
+  .button {
+    display: flex;
+    border-radius: 30px;
+    padding: 16px 32px;
+    width: 157px;
+    height: 52px;
+    background: #7a3145;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+  }
+
+
 }
