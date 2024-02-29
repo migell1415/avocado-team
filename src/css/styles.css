@@ -7,7 +7,7 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
-@import url('./your_order.css');
+@import url('./hero.css');
 
 body {
   font-family: 'Inter tight', sans-serif;
