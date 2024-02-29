@@ -8,7 +8,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #576f35;
-  ;
   font-size: 16px;
 }
 
@@ -51,6 +50,13 @@ a {
   display: none;
 }
 
+.mob-menu-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 240px;
+}
+
 .nav-link {
   border: 1px solid rgba(251, 251, 251, 0.4);
   border-radius: 12px;
@@ -69,6 +75,93 @@ a {
   display: none;
 }
 
+.mob-menu {
+  padding-right: 110px;
+  padding-bottom: 40px;
+  padding-left: 110px;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #7a3145;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.btn-menu-cl {
+  position: absolute;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  right: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-m {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 340px;
+}
+
+.nav-m-d {
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  border-radius: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: auto;
+  padding-right: auto;
+  width: 114px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  background-color: transparent;
+}
+
+.current {
+  color: #7a3145;
+  background-color: #fbfbfb;
+}
+
+.button-m {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 16px 41px;
+  width: 155px;
+  height: 50px;
+  background: #fbfbfb;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #7a3145;
+
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -78,7 +171,7 @@ a {
   .head {
     margin-top: 32px;
     height: 40px;
-}
+  }
 
 }
 
