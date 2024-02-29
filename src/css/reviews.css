@@ -1,0 +1,227 @@
+.reviews-opinions {
+    width: 375px;
+    height: 662px;
+    padding: 80px, 20px, 80px, 20px;
+    gap: 40px;  
+    background-color: #FBFBFB;
+  }
+ 
+ 
+
+  .content-reviews {
+    display: inline-flex;
+    padding: 80px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+
+  }
+
+
+  .title-reviews {
+    width: 335px;
+    color: #141414;
+    font-family: "Inter Tight";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.04;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+  }
+
+
+  .title-diferent {
+    color: #576F35;
+  }
+
+
+  .opinions {
+    width: 335px;
+    color: #141414;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+  }
+
+
+  .list-reviews {
+    display: flex;
+    height: 238px;
+    padding: 20px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px solid rgba(122, 49, 69, 0.30);
+    background: #FBFBFB;
+  }
+
+
+  .imagines-list-reviews {
+    /*border-radius: 50%;*/
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: lightgray 50% / cover no-repeat, #E0E0E0;
+  }
+
+
+  .tittle-lista {
+    color: #040306;
+    text-align: center;
+    font-family: "Inter Tight";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+  }
+
+
+  .parrafo-lista {
+    color: rgba(4, 3, 6, 0.40);
+    text-align: center;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+  }
+
+
+  
+  .victoria-romashenko {
+    display: none;
+  }
+
+
+  .ihor-trachuk {
+    display: none;
+  }
+
+
+
+
+  @media screen and (min-width:768px) {
+    .reviews-opinions {
+      width: 768px;
+      height: 701px;
+      padding: 100px, 32px;
+      gap: 10px;
+
+    }
+
+   
+    .content-reviews {
+      width: 704px;
+      height: 501px;
+      gap: 50px;
+
+    }
+
+
+    .title-reviews {
+      width: 553px;
+      height: 128px;
+      font-size: 64px;
+      line-height: 1;
+      letter-spacing: -1,5%;
+    }
+    
+    .opinions {
+      width: 553px;
+      height: 40px;
+      font-size: 16px;
+      line-height: 1.25;
+   
+    }
+
+    .client-list-reviews {
+      display: inline-flex;
+      
+    }
+
+
+    .list-reviews {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+    }
+   
+    .imagines-list-reviews {
+      background: var(--avatar-user-square-amanda-lowery-neutral-background, lightgray 50% / cover no-repeat, #E0E0E0);
+
+    }
+
+
+
+    .tittle-lista {
+      color: #141414;
+      font-size: 18px;
+      line-height: 1.1;
+      letter-spacing: -0.36px;
+    }
+
+
+    .parrafo-lista {
+      width: 288px;
+      color: rgba(20, 20, 20, 0.40);
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+
+    .victoria-romashenko {
+      display: flex;
+    }
+    
+
+  }
+
+
+
+
+
+  @media screen and (min-width:1280px) {
+    .reviews-opinions {
+      display: flex;
+      width: 1280px;
+      padding: 100px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 50px;
+    }
+
+   
+    .title-reviews {
+      font-size: 64px;
+      letter-spacing: -0.96px;
+    }
+
+
+    .list-reviews {
+      display: flex;
+      align-items: flex-start;
+      gap: 25px;
+    }
+
+
+    .john-wax {
+       display: flex;
+    }
+
+
+    .imagines-list-reviews {
+      background: var(--avatar-user-square-nicolas-trevino-neutral-background, lightgray 50% / cover no-repeat, #E0E0E0);
+    }
+
+
+    .parrafo-lista {
+       text-align: center;
+       font-style: normal; 
+       font-weight: 500;
+    }
+
+  }
