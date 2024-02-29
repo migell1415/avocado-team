@@ -19,7 +19,7 @@ a {
 .head {
   margin-top: 20px;
   height: 32px;
-  background-color: transparent;
+  background-color: #576f35;
 }
 
 .container {
@@ -46,6 +46,23 @@ a {
   color: #fbfbfb;
 }
 
+.ic-logo-icon:hover,
+.ic-logo-icon:focus {
+  width: 18px;
+  height: 18px;
+}
+
+.ic-logo-head-name:hover, .ic-logo-head-name:focus {
+  width: 168px;
+  height: 15px;
+}
+
+.ic-head-menu:hover,
+.ic-head-menu:focus {
+  width: 40px;
+  height: 40px;
+}
+
 .nav-menu {
   display: none;
 }
@@ -62,10 +79,21 @@ a {
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  background-color: transparent;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #576f35;;
+  background-color: #fbfbfb;
 }
 
 .button {
   display: none;
+}
+
+.btn-open-menu {
+  background-color: transparent;
+  border: none;
 }
 
 .mob-menu {
@@ -114,6 +142,11 @@ a {
   border: 0;
 }
 
+.ic-open-menu:hover, .ic-open-menu:focus {
+  width: 40px; 
+  height: 40px;
+}
+
 .nav-m {
   display: flex;
   flex-direction: column;
@@ -140,7 +173,7 @@ a {
   background-color: transparent;
 }
 
-.current {
+.nav-m-d:focus, .nav-m-d:hover {
   color: #7a3145;
   background-color: #fbfbfb;
 }
@@ -161,6 +194,13 @@ a {
   text-transform: uppercase;
   color: #7a3145;
   border: 0;
+}
+
+.button-m:hover,
+.button-m:focus {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  color: #fbfbfb;
+  background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
@@ -232,6 +272,16 @@ a {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
+  }
+
+  .button:focus, .button:hover {
+    background: #622133;
+    border: none;
+  }
+
+  .button:active {
+    background: #fbfbfb;
+    color: #7a3145;
   }
 
   .mob-menu {
