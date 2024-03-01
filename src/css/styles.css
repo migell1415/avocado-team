@@ -9,3 +9,19 @@ body {
   line-height: 1.28;
   font-weight: 500;
 }
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
