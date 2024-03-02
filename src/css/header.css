@@ -242,9 +242,18 @@ a {
     padding: 0 100px;
   }
 
+  .nav-head {
+    align-items: center;
+    justify-content: normal;
+  }
+
   .nav-menu {
     display: flex;
     gap: 8px;
+  }
+
+  .logo-head {
+    margin-right: 397px;
   }
 
   .ic-head-menu {
