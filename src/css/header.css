@@ -1,23 +1,21 @@
 .header {
+  position: absolute;
+  top: 20px;
   padding: 20px 0;
+  background-color: transparent;
+  margin-top: 20px;
+  height: 32px;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #576f35;
   font-size: 16px;
 }
 
 a {
   text-decoration: none;
   font-style: normal;
-}
-
-.head {
-  margin-top: 20px;
-  height: 32px;
-  background-color: #576f35;
 }
 
 .nav-link {
