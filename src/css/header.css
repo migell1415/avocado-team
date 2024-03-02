@@ -1,7 +1,5 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.header {
+  padding: 20px 0;
 }
 
 body {
@@ -22,10 +20,10 @@ a {
   background-color: #576f35;
 }
 
-.container {
-  max-width: 320px;
-  margin: 0 auto;
-  padding: 0 20px;
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .nav-head {
