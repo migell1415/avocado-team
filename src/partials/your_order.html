@@ -8,104 +8,109 @@
       anyone looking to eat healthier or support local farmers. Order your box
       today and start enjoying the best that nature has to offer!
     </p>
-    <div class="form-your-order-block">
-      <h3 class="form-subtitle-your-order">
-        Ordering <span class="color-from-us">from us</span> is quick and easy!
-        Fill out <span class="color-the-form">the form</span> below and we will
-        contact you !
-      </h3>
-      <form class="form-your-order">
-        <label class="label-your-order" for="full-name">
-          <input
-            class="input-your-order"
-            type="text"
-            name="full-name"
-            id="full-name"
-            placeholder="Full Name"
+    <div class="form-link-block">
+      <div class="form-your-order-block">
+        <h3 class="form-subtitle-your-order">
+          Ordering <span class="color-from-us">from us</span> is quick and easy!
+          Fill out <span class="color-the-form">the form</span> below and we
+          will contact you !
+        </h3>
+        <form class="form-your-order">
+          <div class="block-input-your-order" for="full-name">
+            <input
+              class="input-your-order"
+              type="text"
+              name="full-name"
+              id="full-name"
+              placeholder="Full Name"
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+          <div class="block-input-your-order" for="email">
+            <input
+              class="input-your-order"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+              pattern="[A-z0-9_.-]{1,}@[A-z0-9_.-]{1,}\.[A-z]{2,8}"
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+          <label class="user-text-your-order" for="user-text">
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="comment-textarea-your-order"
+              placeholder="Comment"
+            ></textarea>
+          </label>
+          <button type="submit" class="form-send-btn-your-order">Send</button>
+        </form>
+      </div>
+      <div class="link-block-your-order">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/your_order/mix.png 1x, ./img/your_order/mix-2x.png 2x"
           />
-        </label>
-        <label class="label-your-order" for="email">
-          <input
-            class="input-your-order"
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email"
-            required
-            pattern="[A-z0-9_.-]{1,}@[A-z0-9_.-]{1,}\.[A-z]{2,8}"
-        /></label>
-        <span class="success-message">Succes!</span>
-        <span class="error-message">Invalid email, try again</span>
-        <label class="user-text-your-order" for="user-text">
-          <textarea
-            name="user-text"
-            id="user-text"
-            class="comment-textarea-your-order"
-            placeholder="Comment"
-          ></textarea>
-        </label>
-        <button type="submit" class="form-send-btn-your-order">Send</button>
-      </form>
-    </div>
-    <div class="link-block-your-order">
-      <picture>
-        <source
-          media="(min-width: 1280px)"
-          srcset="./img/your_order/mix.png 1x, ./img/your_order/mix-2x.png 2x"
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="
-            ./img/your_order/mix-tab.png    1x,
-            ./img/your_order/mix-tab-2x.png 2x
-          "
-        />
-        <source
-          media="(max-width: 767px)"
-          srcset="
-            ./img/your_order/mix-mob.png    1x,
-            ./img/your_order/mix-mob-2x.png 2x
-          "
-        />
-        <img
-          class="your-order-picture"
-          src="./img/your_order/mix-tab.png"
-          alt="mix"
-          width="528px"
-        />
-      </picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/your_order/mix-tab.png    1x,
+              ./img/your_order/mix-tab-2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/your_order/mix-mob.png    1x,
+              ./img/your_order/mix-mob-2x.png 2x
+            "
+          />
+          <img
+            class="your-order-picture"
+            src="./img/your_order/mix-tab.png"
+            alt="mix"
+            width="528px"
+          />
+        </picture>
 
-      <p class="text-link-block-your-order">
-        Follow us on our social networks:
-      </p>
-      <ul class="list-link-your-order">
-        <li class="item-link-your-order">
-          <a
-            class="soc-link-your-order"
-            href="https://www.instagram.com/goitclub/"
-            target="_blank"
-            >instagram</a
-          >
-        </li>
-        <li class="soc-link-separator">/</li>
-        <li class="item-link-your-order">
-          <a
-            class="soc-link-your-order"
-            href="https://www.facebook.com/goITclub/"
-            target="_blank"
-            >facebook</a
-          >
-        </li>
-        <li class="soc-link-separator">/</li>
-        <li class="item-link-your-order">
-          <a
-            class="soc-link-your-order"
-            href="https://www.youtube.com/c/GoIT"
-            target="_blank"
-            >youtube</a
-          >
-        </li>
-      </ul>
+        <p class="text-link-block-your-order">
+          Follow us on our social networks:
+        </p>
+        <ul class="list-link-your-order">
+          <li class="item-link-your-order">
+            <a
+              class="soc-link-your-order"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              >instagram</a
+            >
+          </li>
+          <li class="soc-link-separator">/</li>
+          <li class="item-link-your-order">
+            <a
+              class="soc-link-your-order"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              >facebook</a
+            >
+          </li>
+          <li class="soc-link-separator">/</li>
+          <li class="item-link-your-order">
+            <a
+              class="soc-link-your-order"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              >youtube</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
