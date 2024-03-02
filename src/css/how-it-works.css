@@ -81,6 +81,10 @@ img {
   .transparent {
     opacity: 0.3;
   }
+
+  .title {
+    margin-bottom: 40px;
+  }
   
   .items {
     display: flex;
@@ -131,8 +135,9 @@ img {
     font-family: Inter Tight, serif;
     font-size: 12px;
     font-weight: 500;
-    line-height: 140%;
-    letter-spacing: 0.2%;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    
   }
   
   .item-1 {
