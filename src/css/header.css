@@ -2,6 +2,7 @@ header {
   position: fixed;
   background-color: transparent;
   height: 32px;
+    margin: 0 auto;
 }
 
 a {
@@ -9,7 +10,7 @@ a {
 }
 
 .containerr {
-  min-width: 320px;
+  width: 320px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -21,6 +22,7 @@ a {
 }
 
 .nav-head {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -202,6 +204,10 @@ a {
     margin: 0 auto;
   }
 
+  .nav-head {
+    width: 100%;
+    }
+
   .head {
     height: 40px;
   }
@@ -236,6 +242,7 @@ a {
   }
 
   .nav-head {
+    width: 100%;
     align-items: center;
     justify-content: normal;
   }
