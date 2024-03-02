@@ -5,14 +5,7 @@ header {
   height: 32px;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  font-size: 16px;
-}
-
 a {
-  text-decoration: none;
   font-style: normal;
 }
 
