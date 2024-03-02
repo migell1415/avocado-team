@@ -1,8 +1,7 @@
 header {
-  position: absolute;
+  position: fixed;
   background-color: transparent;
   height: 32px;
-  margin: 20px 20px 0px;
 }
 
 a {
@@ -12,6 +11,7 @@ a {
 .containerr {
   min-width: 320px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .nav-link {
@@ -195,9 +195,10 @@ a {
   background-color: transparent;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .containerr {
-    min-width: 768px;
+    max-width: 768px;
+    width: 100%;
     padding: 0 32px;
     margin: 0 auto;
   }
@@ -232,8 +233,9 @@ a {
 
   .containerr {
     max-width: 1280px;
+    width: 100%;
     padding: 0 100px;
-      margin: 0 auto;
+    margin: 0 auto;
   }
 
   .nav-head {
