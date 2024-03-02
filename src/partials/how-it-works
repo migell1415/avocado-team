@@ -1,56 +1,36 @@
 <section class="section-how-it-works">
-  <div class="container hiw-container">
-    <h2 class="visually-hidden">How it works</h2>
+  <div class="container">
     <div class="left-section">
-      <picture>
-        <source
-          media="(max-width: 767px)"
-          srcset="../src/img/person-mob-1x.jpg 1x, ../img/person-mob-2x.jpg 2x" />
-        <source
-          media="(min-width: 768px)"
-          srcset="../img/person-tablet-1x.jpg 1x, ../img/person-tablet-2x.jpg 2x" />
-        <source
-          media="(min-width: 1280px)"
-          srcset="../img/person-desktop-1x.jpg 1x, ../img/person-desktop-2x.jpg 2x" />
-        <img
-          class="hiw-img"
-          src="../img/person-tab-1x.jpg"
-          alt="Person chopping vegetables" />
-      </picture>
+      <img src="../img/person.jpg" alt="Person chopping vegetables" />
     </div>
-
     <div class="right-section">
-      <div class="hiw-text-area">
-        <p class="hiw-subtitle">
-          To order your <span>vegetable</span> basket, simply follow these
-          <span>easy steps</span>
-        </p>
-        <p class="hiw-description">
+      <h2 class="visually-hidden"></h2>
+
+      <div class="title">
+        <h2 class="text-title">
+          TO ORDER YOUR <span class="transparent">VEGETABLE</span> BASKET,
+          SIMPLY FOLLOW THESE <span class="transparent">EASY STEPS</span>
+        </h2>
+        <p class="paragraph">
           Our baskets are assembled with care and delivered straight to your
           doorstep, so you can enjoy the taste of fresh fruit without ever
           leaving your home.
         </p>
-        <ol class="hiw-item-list">
-          <li class="hiw-item">
-            <div class="hiw-item-text">
-              <p>
-                Just choose<span> the vegetable</span>you want to order by
-                clicking on the checkboxes<span> next to it</span>.
-              </p>
-            </div>
+      </div>
+
+      <div class="ordered-list">
+        <ol class="items">
+          <li class="item-1">
+            Just choose <span class="bold">the vegetable</span> you want to
+            order by clicking on the checkboxes
+            <span class="bold">next to it</span>.
           </li>
-          <li class="hiw-item">
-            <div class="hiw-item-text">
-              <p>Click on <span> the basket</span> and fill out the form.</p>
-            </div>
+          <li class="item-2">
+            Click on <span class="bold">the basket</span> and fill out the form.
           </li>
-          <li class="hiw-item">
-            <div class="hiw-item-text">
-              <p>
-                Sit back and relax! Your <span> fresh vegetables</span> basket
-                will be delivered.
-              </p>
-            </div>
+          <li class="item-3">
+            Sit back and relax! Your
+            <span class="bold">fresh vegetables</span> basket will be delivered.
           </li>
         </ol>
       </div>
