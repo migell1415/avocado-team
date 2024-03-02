@@ -1,8 +1,7 @@
-.header {
+header {
   position: absolute;
-  top: 20px;
-  padding: 20px 0;
   background-color: transparent;
+  top: 20px;
   height: 32px;
 }
 
@@ -24,7 +23,6 @@ a {
 }
 
 .nav-head {
-    margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
