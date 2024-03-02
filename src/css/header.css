@@ -2,11 +2,17 @@ header {
   position: absolute;
   background-color: transparent;
   top: 20px;
+  left: 20px;
   height: 32px;
+  margin: 0 auto;
 }
 
 a {
   font-style: normal;
+}
+
+.containerr {
+  min-width: 320px;
 }
 
 .nav-link {
@@ -191,7 +197,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .containerr {
     max-width: 768px;
     padding: 0 32px;
   }
@@ -224,7 +230,7 @@ a {
     height: 52px;
   }
 
-  .container {
+  .containerr {
     max-width: 1280px;
     padding: 0 100px;
   }
