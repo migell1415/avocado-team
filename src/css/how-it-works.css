@@ -162,8 +162,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hiw-container {
-  }
+  /* .hiw-container {
+  } */
 
   .hiw-container {
     display: flex;
