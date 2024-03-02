@@ -1,19 +1,17 @@
 header {
   position: absolute;
   background-color: transparent;
-  margin-top: 20px;
   height: 32px;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  font-size: 16px;
+  margin: 20px 20px 0px;
 }
 
 a {
-  text-decoration: none;
   font-style: normal;
+}
+
+.containerr {
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .nav-link {
@@ -198,9 +196,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
+  .containerr {
+    min-width: 768px;
     padding: 0 32px;
+    margin: 0 auto;
   }
 
   .head {
@@ -231,9 +230,10 @@ a {
     height: 52px;
   }
 
-  .container {
+  .containerr {
     max-width: 1280px;
     padding: 0 100px;
+      margin: 0 auto;
   }
 
   .nav-head {
