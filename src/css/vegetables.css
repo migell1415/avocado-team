@@ -1,0 +1,118 @@
+.vegetables {
+    background-color: #7a3145;
+}
+
+.veg-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 104%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+.veg-title-part {
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.veg-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+}
+
+.veg-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.veg-list-item {
+    background-color: #fbfbfb;
+    border-radius: 40px;
+    padding: 32px 26px;
+}
+
+.veg-subtitle {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #7a3145;
+    margin-bottom: 12px;
+}
+
+.veg-price {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    margin-bottom: 14px;
+}
+
+@media screen and (min-width: 375px) {
+    .veg-title {
+        font-size: 48px;
+    }
+    
+    .veg-list-item {
+        padding: 32px 26px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .veg-title {
+        font-size: 64px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        margin-bottom: 50px;
+        max-width: 508px;
+    }
+
+    .veg-text {
+        font-size: 16px;
+        line-height: 125%;
+        margin-bottom: 50px;
+        max-width: 626px;
+    }
+
+    .veg-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 28px;
+        column-gap: 20px;
+    }
+
+    .veg-list-item {
+        width: calc((100% - 20px) / 2);
+        padding: 32px 30px;
+    }
+
+    .veg-subtitle {
+        font-size: 32px;
+    }
+
+    .veg-price {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .veg-title {
+        margin-bottom: 25px;
+    }
+
+    .veg-list {
+        column-gap: 21px;
+    }
+
+    .veg-list-item {
+        width: calc((100% - 42px) / 3);
+        padding: 32px;
+    }
+}
