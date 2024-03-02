@@ -2,9 +2,21 @@
   background-color: #576f35;
 }
 
+.hero-container {
+  height: 812px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.2),
+      rgba(20, 20, 20, 0.2)
+    ),
+    url(./img/basket-mob-1x.jpg);
+  background-size: auto 370px;
+  background-position: bottom;
+}
+
 .hero-text {
   color: #fbfbfb;
-  padding: 100px 20px 0 20px;
+  padding-top: 100px;
   margin-bottom: 40px;
 }
 
@@ -25,42 +37,61 @@
   max-width: 335px;
 }
 
-.hero-img-bgr {
-  max-width: 375px;
-  height: 370px;
-  background-image: linear-gradient(
-      rgba(20, 20, 20, 0.2),
-      rgba(20, 20, 20, 0.2)
-    ),
-    url(../img/basket-mob-1x.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-@media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-img-bgr {
+@media screen and (min-width: 375px) {
+  .hero-container {
+    height: 812px;
+    background-repeat: no-repeat;
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../img/basket-mob-2x.jpg);
+      url(./img/basket-mob-1x.jpg);
+    background-size: 375px 370px;
+    background-position: bottom;
   }
-}
 
-@media screen and (min-width: 375px) {
-  .hero-img-bgr {
-    max-width: 375px;
-    height: 370px;
-    background-size: cover;
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-img-bgr {
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(./img/basket-mob-2x.jpg);
+    }
   }
 }
 
 @media screen and (min-width: 768px) {
+  .hero-container {
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(./img/basket-tab-1x.jpg);
+    background-size: 768px 539px;
+    background-position: bottom;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container {
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(./img/basket-tab-2x.jpg);
+    }
+  }
+
   .hero-text {
-    padding: 122px 32px 0 32px;
+    padding-top: 122px;
     margin-bottom: 50px;
   }
 
@@ -75,37 +106,40 @@
     line-height: 1.25;
     max-width: 603px;
   }
+}
 
-  .hero-img-bgr {
-    min-width: 768px;
-    height: 539px;
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-height: 800px;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    background-repeat: no-repeat;
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../img/basket-tab-1x.jpg);
+      url(./img/basket-desk-1x.jpg);
+    background-size: 650px 800px;
+    background-position: right;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-img-bgr {
+    .hero-container {
       background-image: linear-gradient(
           rgba(20, 20, 20, 0.2),
           rgba(20, 20, 20, 0.2)
         ),
-        url(../img/basket-tab-2x.jpg);
+        url(./img/basket-desk-2x.jpg);
     }
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .hero-container {
-    display: flex;
   }
 
   .hero-text {
-    padding: 238px 28px 50px 100px;
+    padding: 238px 0px 50px 0px;
     margin-bottom: 0;
   }
 
@@ -116,27 +150,5 @@
 
   .hero-description {
     max-width: 472px;
-  }
-
-  .hero-img-bgr {
-    min-width: 650px;
-    height: 800px;
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url(../img/basket-desk-1x.jpg);
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-img-bgr {
-      background-image: linear-gradient(
-          rgba(20, 20, 20, 0.2),
-          rgba(20, 20, 20, 0.2)
-        ),
-        url(../img/basket-desk-2x.jpg);
-    }
   }
 }
