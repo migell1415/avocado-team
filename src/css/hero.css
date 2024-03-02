@@ -121,7 +121,7 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(./img/basket-desk-1x.jpg);
+      url(../img/basket-desk-1x.jpg);
     background-size: 650px 800px;
     background-position: right;
   }
@@ -134,7 +134,7 @@
           rgba(20, 20, 20, 0.2),
           rgba(20, 20, 20, 0.2)
         ),
-        url(./img/basket-desk-2x.jpg);
+        url(../img/basket-desk-2x.jpg);
     }
   }
 
