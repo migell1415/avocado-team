@@ -279,6 +279,7 @@ a {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
+      border: none;
   }
 
   .button:focus, .button:hover {
