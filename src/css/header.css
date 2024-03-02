@@ -1,9 +1,7 @@
-.header {
+header {
   position: absolute;
-  top: 20px;
-  padding: 20px 0;
   background-color: transparent;
-  margin-top: 20px;
+  top: 20px;
   height: 32px;
 }
 
