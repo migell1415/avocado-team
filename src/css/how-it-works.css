@@ -1,5 +1,5 @@
-/* .section-how-it-works {
-} */
+.section-how-it-works {
+}
 
 .hiw-container {
   background-color: #7a3145;
@@ -162,8 +162,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  /* .hiw-container {
-  } */
 
   .hiw-container {
     display: flex;
@@ -176,5 +174,6 @@
   .right-section {
     max-width: 650px;
     padding: 100px 100px 160px 100px;
+    background-color:#576F35;
   }
 }
