@@ -197,14 +197,12 @@ a {
 
 @media screen and (max-width: 768px) {
   .containerr {
-    max-width: 768px;
-    width: 100%;
+    width: 768px;
     padding: 0 32px;
     margin: 0 auto;
   }
 
   .head {
-    margin-top: 32px;
     height: 40px;
   }
 
@@ -232,8 +230,7 @@ a {
   }
 
   .containerr {
-    max-width: 1280px;
-    width: 100%;
+    width: 1280px;
     padding: 0 100px;
     margin: 0 auto;
   }
