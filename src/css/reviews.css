@@ -18,17 +18,14 @@
   
     .content-reviews {
       display: flex;
-     
       flex-direction: column;
-      align-items: flex-start;
-      gap: 40px;
       margin: 0;
       
     }
   
   
     .title-reviews {
-      
+      margin-bottom: 20px;
       color: #141414;
       font-family: "Inter Tight";
       font-size: 48px;
@@ -46,6 +43,7 @@
   
   
     .opinions {
+      margin-bottom: 40px;
       margin: 0 auto;
       color: #141414;
       font-family: "Inter Tight";
@@ -167,7 +165,7 @@
   
       .list-reviews {
        
-        
+        width: calc((100% - 18px) / 2);
         gap: 18px;
       }
      
@@ -232,7 +230,7 @@
       .content-reviews {
         
        
-        margin: o auto;
+        margin: 0 auto;
       }
   
      
@@ -253,6 +251,7 @@
         align-items: flex-start;
         gap: 0;
         padding: 20px;
+        width: calc((100% - 50px) / 3);
       }
   
   
