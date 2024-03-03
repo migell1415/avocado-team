@@ -1,8 +1,14 @@
 
     /*reviews*/
 
+    .container {
+      width: 100%;
+      padding: 0 20px;
+      margin: 0 auto;
+    }
+
     .reviews-opinions {
-   
+      padding: 80px 0;
    
     
       background-color: #FBFBFB;
@@ -56,7 +62,7 @@
       padding: 20px 16px;
       flex-direction: column;
       align-items: center;
-      gap: 8px;
+      
       border-radius: 24px;
       border: 1px solid rgba(122, 49, 69, 0.30);
       background: #FBFBFB;
@@ -80,6 +86,7 @@
       font-weight: 600;
       line-height: 1.25;
       letter-spacing: -0.32px;
+      margin-top: 24px;
     }
   
   
@@ -91,7 +98,7 @@
       font-style: normal;
       font-weight: 500;
       line-height: 1.28;
-      margin: 0 auto;
+      margin: 8px auto 0 auto;
     }
   
   
@@ -110,26 +117,32 @@
   
     @media screen and (min-width:768px) {
       .reviews-opinions {
-        width: 768px;
         
-        padding: 100px 32px;
+        
+        padding: 100px 0;
         
         gap: 10px;
   
       }
+
+
+      .container {
+        width: 100%;
+        padding: 0 32px;
+      }
   
      
       .content-reviews {
-        width: 100%;
         
-        gap: 50px;
+        
+        gap: 0;
   
       }
   
   
       .title-reviews {
         width: 553px;
-        
+        margin: 0 0 25px 0;
         font-size: 64px;
         line-height: 1;
         letter-spacing: -1,5%;
@@ -137,7 +150,7 @@
       
       .opinions {
         width: 553px;
-        
+        margin: 0 0 50px 0;
         font-size: 16px;
         line-height: 1.25;
      
@@ -152,8 +165,8 @@
   
   
       .list-reviews {
-        display: flex;
-        align-items: flex-start;
+       
+        
         gap: 18px;
       }
      
@@ -197,12 +210,16 @@
   
     @media screen and (min-width:1280px) {
       .reviews-opinions {
-        display: flex;
-        width: 1280px;
-        padding: 100px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 50px;
+        
+
+        padding: 100px 0;
+        
+        
+      }
+
+      .container {
+        width: 100%;
+        padding: 0 100px;
       }
       
   
@@ -211,20 +228,21 @@
   
   
       .content-reviews {
-        margin: 0 auto;
-        width: 1079px;
+        
+       
+        margin: o auto;
       }
   
      
       .title-reviews {
         font-size: 64px;
         letter-spacing: -0.96px;
-        margin: 0;
+        margin: 0 0 25px 0;
       }
   
   
       .opinions {
-        margin: 0;
+        margin: 0 0 50px 0;
       }
   
   
@@ -251,8 +269,8 @@
   
   
       .tittle-lista {
-        margin: 0 auto;
-        padding-top: 11px;
+        margin: 24px auto 0 auto;
+        
       }
   
   
@@ -260,15 +278,16 @@
          text-align: center;
          font-style: normal; 
          font-weight: 500;
-         padding-top: 8px;
+         margin: 8px auto 0 auto;
          
          
       }
   
   
       .client-list-reviews {
+        
         gap: 25px;
-        width: calc((100% - 50px) / 3);
+       
       }
   
     }
