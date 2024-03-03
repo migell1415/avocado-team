@@ -1,23 +1,18 @@
-.header {
-  padding: 20px 0;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #576f35;
-  font-size: 16px;
+header {
+  position: fixed;
+  background-color: transparent;
+  height: 32px;
+  margin: 20px 20px 0px;
 }
 
 a {
-  text-decoration: none;
   font-style: normal;
 }
 
-.head {
-  margin-top: 20px;
-  height: 32px;
-  background-color: #576f35;
+.containerr {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .nav-link {
@@ -27,6 +22,7 @@ a {
 }
 
 .nav-head {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -201,14 +197,18 @@ a {
   background-color: transparent;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
     padding: 0 32px;
+    margin: 0 auto;
   }
 
+  .nav-head {
+    width: 100%;
+    }
+
   .head {
-    margin-top: 32px;
     height: 40px;
   }
 
@@ -238,9 +238,11 @@ a {
   .container {
     max-width: 1280px;
     padding: 0 100px;
+    margin: 0 auto;
   }
 
   .nav-head {
+    width: 100%;
     align-items: center;
     justify-content: normal;
   }

@@ -6,6 +6,7 @@
 @import url('./vegetables.css');
 @import url('./reviews.css');
 @import url('./your_order.css');
+
 body {
   /* color: #fbfbfb; */
   font-family: 'Inter tight', sans-serif;
