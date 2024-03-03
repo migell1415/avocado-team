@@ -1,11 +1,3 @@
-.section-how-it-works {
-  
-}
-
-.hiw-container {
-  background-color: #7a3145;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -20,20 +12,42 @@
 }
 
 .left-section {
-  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #7a3145;
 }
 
-.hiw-img {
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  display: block;
+  object-fit: cover;
+  overflow: hidden;
+  height: 450px;
+  width: 100%;
   border-radius: 30px;
-  border: none;
-  background-image: linear-gradient(
-    rgba(20, 20, 20, 0.3),
-    rgba(20, 20, 20, 0.3)
-  );
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px;
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3));
 }
 
 .right-section {
-  color: #FBFBFB;
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  background-color: #576f35;
+  color: #fbfbfb;
 }
 
 .hiw-text-area {
@@ -113,18 +127,32 @@
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 375px) {
+  .image-container img {
+    object-fit: cover;
+    object-position: top;
+    height: 450px;
+    width: 335px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .left-section {
     padding: 100px 64px;
   }
 
+  .image-container img {
+    height: 640px;
+    width: 640px;
+    object-position: top right;
+  }
+
   .right-section {
-    background-color:#576F35;
     padding: 100px 159px;
   }
 
   .hiw-text-area {
-    width: 450px;
+    max-width: 450px;
   }
 
   .hiw-subtitle {
@@ -163,18 +191,24 @@
 }
 
 @media screen and (min-width: 1280px) {
-
   .hiw-container {
     display: flex;
+    justify-content: center;
   }
 
   .left-section {
-    padding: 100px 100px 100px 100px;
+    padding: 100px;
+  }
+
+  .image-container img {
+    height: 559px;
+    width: 430px;
+    /* object-position: ; */
   }
 
   .right-section {
     max-width: 650px;
     padding: 100px 100px 160px 100px;
-    background-color:#576F35;
+    background-color: #576f35;
   }
 }
