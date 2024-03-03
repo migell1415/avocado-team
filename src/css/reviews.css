@@ -43,8 +43,8 @@
   
   
     .opinions {
-      margin-bottom: 40px;
-      margin: 0 auto;
+      
+      margin: 20px auto 0 auto;
       color: #141414;
       font-family: "Inter Tight";
       font-size: 14px;
@@ -64,6 +64,11 @@
       border-radius: 24px;
       border: 1px solid rgba(122, 49, 69, 0.30);
       background: #FBFBFB;
+    }
+
+
+    .client-list-reviews {
+      margin: 40px 0 0 0;
     }
   
   
@@ -157,7 +162,7 @@
       .client-list-reviews {
         display:flex;
         gap: 18px;
-        
+        margin: 0;
         
         
       }
@@ -286,7 +291,7 @@
   
   
       .client-list-reviews {
-        
+        margin: 0;
         gap: 25px;
         
       }
