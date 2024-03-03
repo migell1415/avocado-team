@@ -1,5 +1,10 @@
 .advert {
     background-color: #fbfbfb;
+    padding: 80px 10px;
+}
+
+.container {
+padding: 0;
 }
 
 .visually-hidden {
@@ -32,9 +37,16 @@
 }
 
 @media screen and (min-width: 768px) {
+    .container {
+        padding: 0;
+    }
+    .advert {
+       
+    }
+
     .discount-text {
         font-size: 64px;
-        line-height: 109%;
+        line-height: 1.1;
     }
 
     /* .disc-part-text {
