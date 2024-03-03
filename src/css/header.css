@@ -1,5 +1,5 @@
 header {
-  position: absolute;
+  position: fixed;
   background-color: transparent;
   height: 32px;
 <<<<<<< HEAD
@@ -19,6 +19,7 @@ a {
 >>>>>>> parent of cd2eeb5 (Merge branch 'header' of https://github.com/MaximusGreen/project-group-12 into pr/24)
   min-width: 320px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .nav-link {
@@ -28,6 +29,7 @@ a {
 }
 
 .nav-head {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -202,15 +204,18 @@ a {
   background-color: transparent;
 }
 
-@media screen and (min-width: 768px) {
-  .containerr {
-    min-width: 768px;
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768px;
     padding: 0 32px;
     margin: 0 auto;
   }
 
+  .nav-head {
+    width: 100%;
+    }
+
   .head {
-    margin-top: 32px;
     height: 40px;
   }
 
@@ -237,13 +242,14 @@ a {
     height: 52px;
   }
 
-  .containerr {
+  .container {
     max-width: 1280px;
     padding: 0 100px;
-      margin: 0 auto;
+    margin: 0 auto;
   }
 
   .nav-head {
+    width: 100%;
     align-items: center;
     justify-content: normal;
   }
