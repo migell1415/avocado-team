@@ -194,6 +194,7 @@
   .hiw-container {
     display: flex;
     justify-content: center;
+    background-color: #576F35;
   }
 
   .left-section {
