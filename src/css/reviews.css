@@ -161,6 +161,7 @@
         gap: 18px;
         
         
+        
       }
   
   
@@ -220,6 +221,7 @@
       .container {
         width: 100%;
         padding: 0 100px;
+      
       }
       
   
@@ -287,7 +289,6 @@
       .client-list-reviews {
         
         gap: 25px;
-       
       }
   
     }
