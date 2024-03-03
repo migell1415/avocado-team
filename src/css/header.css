@@ -2,7 +2,7 @@ header {
   position: fixed;
   background-color: transparent;
   height: 32px;
-    margin: 0 auto;
+  margin: 20px 20px 0px;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
 }
 
 .containerr {
-  width: 320px;
+  min-width: 320px;
   margin: 0 auto;
   padding: 0 20px;
 }
