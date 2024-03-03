@@ -2,14 +2,21 @@ header {
   position: absolute;
   background-color: transparent;
   height: 32px;
+<<<<<<< HEAD
   margin: 20px 20px 0px;
+=======
+>>>>>>> parent of cd2eeb5 (Merge branch 'header' of https://github.com/MaximusGreen/project-group-12 into pr/24)
 }
 
 a {
   font-style: normal;
 }
 
+<<<<<<< HEAD
 .containerr {
+=======
+.container {
+>>>>>>> parent of cd2eeb5 (Merge branch 'header' of https://github.com/MaximusGreen/project-group-12 into pr/24)
   min-width: 320px;
   margin: 0 auto;
 }
