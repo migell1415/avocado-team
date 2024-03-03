@@ -1,0 +1,188 @@
+.footer {
+    padding: 20px 40px;  
+    background-color: #7A3145;
+}
+.container {
+}
+/* -----------------pervoe----------------- */
+.footer-container {
+}
+.pervoe {
+    margin-bottom: 40px;
+}
+.footer-logo {
+}
+.footer-logo-icon {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 16px;
+}
+.footer-icon {
+    fill: #fff;
+}
+.footer-icon-text {
+    fill: #fff;
+}
+.footer-pervoe-text {
+    max-width: 296px;
+    color: #FBFBFB;
+    font-family: "Inter Tight"; 
+    font-size: 14px;
+    font-style: normal; 
+    font-weight: 500;
+    line-height: 1.29;
+}
+/* -----------------pervoe----------------- */
+
+
+/* -----------------vtoroe----------------- */
+
+.footer-vtoroe-nav {
+}
+.footer-nav {
+}
+.footer-vtoroe-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 40px;
+}
+.footer-item {
+    color: #FBFBFB;
+    font-family: "Inter Tight";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+.footer-vtoroe-address {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 80px;
+}
+.footer-tel {
+    color: #FBFBFB;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+.footer-address {
+    color: #FBFBFB;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.02em; 
+}
+/* -----------------vtoroe----------------- */
+
+
+
+
+
+
+/* -----------------niz----------------- */
+.footer-container-niz {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(251, 251, 251, 0.50);
+    font-family: "Inter Tight";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+.footer-niz {
+}
+.footer-niz-p {
+    margin-right: 8px;
+}
+.footer-niz-c {
+    margin-left: 8px;
+}
+.footer-niz-g {
+    font-size: 18px;
+}
+/* -----------------niz----------------- */
+
+/* -----------------768px----------------- */
+
+
+@media screen and (min-width: 768px) {
+
+.footer{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer-container{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.pervoe{
+    display: flex;
+}
+.footer-logo-icon{
+    margin-bottom: 26px;
+}
+.footer-icon{
+    width: 18px;
+    height: 18px;
+}
+
+.footer-icon-text{
+    max-width: 168px;
+    height: 15px;
+}
+
+
+
+.footer-pervoe-text{
+    max-width: 265px;
+    font-family: "Inter Tight";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-right: 224px;
+}
+
+.footer-vtoroe-list{
+    gap: 25px;
+    margin-bottom: 64px;
+}
+
+.footer-item {
+    font-size: 32px;
+}
+
+.footer-vtoroe-address{
+    gap: 25px;
+    margin-bottom: 100px;
+}
+
+.footer-niz{
+    font-size: 18px;
+    line-height: 1.11;
+}
+}
+
+@media screen and (min-width: 1280px) {
+   
+}
+
+
+
+
+
+
