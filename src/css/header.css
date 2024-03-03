@@ -12,15 +12,17 @@ a {
 .containerr {
   min-width: 320px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.headd {
+  padding-top: 20px;
+  min-width: 320px;
 }
+
 
 .nav-head {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,8 +57,13 @@ a {
   height: 40px;
 }
 
-.nav-menu {
+.nav-but {
   display: none;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 8px;
 }
 
 .nav-link {
@@ -195,6 +202,12 @@ a {
   background-color: transparent;
 }
 
+@media screen and (min-width: 320px) {
+  .containerr {
+    max-width: 375px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .containerr {
     min-width: 768px;
@@ -203,7 +216,17 @@ a {
   }
 
   .head {
-    margin-top: 32px;
+    height: 40px;
+    padding-top: 32px;
+  }
+
+  .ic-logo-head-name {
+    width: 168px;
+    height: 15px;
+  }
+
+  .btn-open-menu {
+    width: 40px;
     height: 40px;
   }
 
@@ -231,9 +254,9 @@ a {
   }
 
   .containerr {
-    max-width: 1280px;
-    padding: 0 100px;
-      margin: 0 auto;
+    min-width: 1280px;
+    padding-left: 100px;
+    margin: 0 auto;
   }
 
   .nav-head {
@@ -241,7 +264,7 @@ a {
     justify-content: normal;
   }
 
-  .nav-menu {
+  .nav-but {
     display: flex;
     gap: 8px;
   }
