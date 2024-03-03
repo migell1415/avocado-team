@@ -1,6 +1,6 @@
 .vegetables {
     background-color: #7a3145;
-    padding: 80px 0;
+    padding: 80px 20px;
 }
 
 .veg-title {
@@ -68,7 +68,7 @@
 
 @media screen and (min-width: 768px) {
     .vegetables {
-        padding: 100px 0;
+        padding: 100px 32px;
     }
 
     .veg-title {
@@ -108,6 +108,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .vegetables {
+        padding: 100px;
+    }
+
     .veg-title {
         margin-bottom: 25px;
     }
