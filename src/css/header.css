@@ -1,7 +1,7 @@
 header {
   position: absolute;
+  width: 100%;
   background-color: transparent;
-  height: 32px;
   margin: 20px 20px 0px;
 }
 
@@ -16,7 +16,6 @@ a {
 }
 
 .headd {
-  padding-top: 20px;
   min-width: 320px;
 }
 
@@ -49,6 +48,10 @@ a {
 .ic-logo-head-name:hover, .ic-logo-head-name:focus {
   width: 168px;
   height: 15px;
+}
+
+.logo-name {
+  color: #fbfbfb;
 }
 
 .ic-head-menu:hover,
@@ -91,14 +94,14 @@ a {
 }
 
 .btn-open-menu {
+  display: flex;
+  align-items: center;
   background-color: transparent;
   border: none;
 }
 
 .mob-menu {
-  padding-right: 110px;
-  padding-bottom: 40px;
-  padding-left: 110px;
+  padding: 40px 0px;
   position: fixed;
   overflow: auto;
   top: 0;
@@ -120,10 +123,12 @@ a {
 }
 
 .mob-menu-modal {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 240px;
+  justify-content: space-between;
+  padding-top: 200px;
 }
 
 .btn-menu-cl {
@@ -151,7 +156,6 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  margin-bottom: 340px;
 }
 
 .nav-m-d {
@@ -211,19 +215,17 @@ a {
 @media screen and (min-width: 768px) {
   .containerr {
     min-width: 768px;
-    padding: 0 32px;
     margin: 0 auto;
   }
 
-  .head {
-    height: 40px;
-    padding-top: 32px;
+  header {
+    margin-top: 32px;
   }
 
-  .ic-logo-head-name {
+  /*==.ic-logo-head-name {
     width: 168px;
     height: 15px;
-  }
+  }==*/
 
   .btn-open-menu {
     width: 40px;
@@ -248,11 +250,6 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
-  .head {
-    margin-top: 32px;
-    height: 52px;
-  }
-
   .containerr {
     min-width: 1280px;
     padding-left: 100px;
@@ -260,8 +257,7 @@ a {
   }
 
   .nav-head {
-    align-items: center;
-    justify-content: normal;
+    justify-content: space-between;
   }
 
   .nav-but {
