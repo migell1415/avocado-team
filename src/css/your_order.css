@@ -178,6 +178,12 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
+
+.form-send-btn-your-order:hover,
+.form-send-btn-your-order:focus {
+  color: #622133;
+}
+
 .link-block-your-order {
   padding: 40px 20px;
   max-width: 335px;
