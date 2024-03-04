@@ -2,7 +2,8 @@ header {
   position: absolute;
   width: 100%;
   background-color: transparent;
-  margin: 20px 20px 0px;
+  margin: 20px 0px;
+  overflow: hidden;
 }
 
 a {
@@ -10,7 +11,7 @@ a {
 }
 
 .containerr {
-  min-width: 320px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -21,7 +22,6 @@ a {
 
 
 .nav-head {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -98,10 +98,10 @@ a {
   align-items: center;
   background-color: transparent;
   border: none;
+  padding: 0;
 }
 
 .mob-menu {
-  padding: 40px 0px;
   position: fixed;
   overflow: auto;
   top: 0;
@@ -128,7 +128,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-top: 200px;
+  padding: 200px 0px 40px;
 }
 
 .btn-menu-cl {
@@ -216,26 +216,32 @@ a {
   .containerr {
     min-width: 768px;
     margin: 0 auto;
+    padding: 0 32px;
   }
 
   header {
     margin-top: 32px;
   }
 
-  /*==.ic-logo-head-name {
+  .ic-logo-head-name {
     width: 168px;
     height: 15px;
-  }==*/
+  }
 
-  .btn-open-menu {
+  .ic-head-menu {
     width: 40px;
     height: 40px;
   }
 
   .mob-menu {
-    max-width: 351px;
+    background: rgba(20, 20, 20, 0.4);
+  }
+
+  .mob-menu-modal {
+    position: absolute;
     right: 0px;
-    left: auto;
+    min-width: 351px;
+    background-color: #7a3145;
   }
 
   .tablet-background {
