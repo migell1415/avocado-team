@@ -1,0 +1,59 @@
+<section class="section-how-it-works">
+  <div class="container hiw-container">
+    <h2 class="visually-hidden">How it works</h2>
+    <div class="left-section">
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="../img/person-mob-1x.jpg 1x, ../img/person-mob-2x.jpg 2x" />
+        <source
+          media="(min-width: 768px)"
+          srcset="../img/person-tablet-1x.jpg 1x, ../img/person-tablet-2x.jpg 2x" />
+        <source
+          media="(min-width: 1280px)"
+          srcset="../img/person-desktop-1x.jpg 1x, ../img/person-desktop-2x.jpg 2x" />
+        <img
+          class="hiw-img"
+          src="../img/person-tablet-1x.jpg"
+          alt="Person chopping vegetables" />
+      </picture>
+    </div>
+
+    <div class="right-section">
+      <div class="hiw-text-area">
+        <p class="hiw-subtitle">
+          To order your <span>vegetable</span> basket, simply follow these
+          <span>easy steps</span>
+        </p>
+        <p class="hiw-description">
+          Our baskets are assembled with care and delivered straight to your
+          doorstep, so you can enjoy the taste of fresh fruit without ever
+          leaving your home.
+        </p>
+        <ol class="hiw-item-list">
+          <li class="hiw-item">
+            <div class="hiw-item-text">
+              <p>
+                Just choose<span> the vegetable</span>you want to order by
+                clicking on the checkboxes<span> next to it</span>.
+              </p>
+            </div>
+          </li>
+          <li class="hiw-item">
+            <div class="hiw-item-text">
+              <p>Click on <span> the basket</span> and fill out the form.</p>
+            </div>
+          </li>
+          <li class="hiw-item">
+            <div class="hiw-item-text">
+              <p>
+                Sit back and relax! Your <span> fresh vegetables</span> basket
+                will be delivered.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>

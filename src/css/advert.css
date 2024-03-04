@@ -1,0 +1,89 @@
+.advert {
+    background-color: #fbfbfb;
+    padding: 80px 0; 
+}
+
+.container-advert {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.discount-text {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    
+
+}
+
+.disc-part-text {
+    display: inline-block;
+    color: #fbfbfb;
+    background-color: #576f35;
+    border-radius: 12px;
+    padding: 3px 10px 3px;
+    margin: 0 -10px;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .advert {
+      padding: 100px 0;
+    }
+    .container-advert {
+        max-width: 736px;
+        padding: 0 32px;
+        
+    }
+
+    .discount-text {
+        font-size: 64px;
+        line-height: 1.1;
+       
+    }
+
+    .disc-part-text {
+        
+         margin: 0 -16px;
+         
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .advert {
+        padding: 100px 0;
+    }
+    .container-advert {
+        padding: 0 100px;
+        max-width: 1280px;
+    }
+
+    .discount-text {
+        font-size: 76px;
+        line-height: 1.05;
+        
+    }
+        .disc-part-text {
+            margin: 0 0 0 -13px;
+           
+        }
+}
