@@ -23,14 +23,18 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #141414;
+    
+
 }
 
 .disc-part-text {
+    display: flex;
     color: #fbfbfb;
     background-color: #576f35;
     border-radius: 12px;
-    width: 355px;
+    max-width: 355px;
 }
+
 
 @media screen and (min-width: 768px) {
     
@@ -49,12 +53,13 @@
 
     .disc-part-text {
          width: 736px;
+         display:inline;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .advert {
-        padding: 100px;
+        padding: 100px 0;
     }
     .container {
         padding: 0;
@@ -65,4 +70,8 @@
         line-height: 1.05;
         width: 1054px;
     }
+        .disc-part-text {
+            
+            display: inline;
+        }
 }
