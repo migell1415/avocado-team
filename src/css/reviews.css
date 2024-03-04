@@ -171,7 +171,7 @@
       .list-reviews {
        
         width: calc((100% - 18px) / 2);
-        gap: 18px;
+        
       }
      
       .imagines-list-reviews {
@@ -223,7 +223,7 @@
 
       .container {
         width: 100%;
-        padding: 0 100px;
+        padding: 0 32px;
       
       }
       
