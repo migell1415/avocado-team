@@ -1,6 +1,12 @@
 .advert {
     background-color: #fbfbfb;
-    padding: 80px 10px; 
+    padding: 80px 0; 
+}
+
+.container-advert {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -17,6 +23,7 @@
 }
 
 .discount-text {
+    display: inline-block;
     font-weight: 600;
     font-size: 48px;
     line-height: 1.04;
@@ -28,32 +35,36 @@
 }
 
 .disc-part-text {
-    display: flex;
+    display: inline-block;
     color: #fbfbfb;
     background-color: #576f35;
     border-radius: 12px;
-    max-width: 355px;
+    padding: 3px 10px 3px;
+    margin: 0 -10px;
 }
 
 
 @media screen and (min-width: 768px) {
     
     .advert {
-      padding: 100px 16px;
+      padding: 100px 0;
     }
-    .container {
-        padding: 0;
+    .container-advert {
+        max-width: 736px;
+        padding: 0 32px;
+        
     }
 
     .discount-text {
         font-size: 64px;
         line-height: 1.1;
-        width: 704px;
+       
     }
 
     .disc-part-text {
-         width: 736px;
-         display:inline;
+        
+         margin: 0 -16px;
+         
     }
 }
 
@@ -61,17 +72,18 @@
     .advert {
         padding: 100px 0;
     }
-    .container {
-        padding: 0;
+    .container-advert {
+        padding: 0 100px;
+        max-width: 1280px;
     }
 
     .discount-text {
         font-size: 76px;
         line-height: 1.05;
-        width: 1054px;
+        
     }
         .disc-part-text {
-            
-            display: inline;
+            margin: 0 0 0 -13px;
+           
         }
 }
