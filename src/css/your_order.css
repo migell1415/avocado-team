@@ -216,8 +216,8 @@
   gap: 8px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.item-link-your-order:hover,
-.item-link-your-order:focus {
+.soc-link-your-order:hover,
+.soc-link-your-order:focus {
   color: #622133;
 }
 .soc-link-your-order {
