@@ -110,8 +110,9 @@
 
 .footer-ul-niz {
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+
 }
 
 .footer-niz-p {
@@ -137,6 +138,7 @@
 
 }
 .footer-niz-c {
+    display: flex;
     color: rgba(251, 251, 251, 0.5);
     font-family: 'Inter Tight';
     font-size: 12px;
@@ -154,6 +156,7 @@
     font-weight: 500;
     line-height: 1.17;
     letter-spacing: -0.02em;
+    margin-left: auto;
 }
 @media screen and (min-width: 768px) {
     .footer {
