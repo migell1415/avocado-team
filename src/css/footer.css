@@ -158,6 +158,11 @@
     letter-spacing: -0.02em;
     margin-left: auto;
 }
+.footer-ul-niz a:hover,
+.footer-ul-niz a:focus {
+    color: #99f6cb;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 @media screen and (min-width: 768px) {
     .footer {
         max-width: 100%;
@@ -270,6 +275,11 @@
         font-size: 18px;
         line-height: 1.11;
     }
+    .footer-ul-niz a:hover,
+.footer-ul-niz a:focus {
+    color: #99f6cb;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
 @media screen and (min-width: 1280px) {
@@ -329,6 +339,11 @@
     .footer-vtoroe-address {
         margin-bottom: 0;
     }
+    .footer-ul-niz a:hover,
+.footer-ul-niz a:focus {
+    color: #99f6cb;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
 
