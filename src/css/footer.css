@@ -163,6 +163,13 @@
     color: #99f6cb;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+@media screen and (max-width: 374px) {
+    .footer-niz-razdel {
+        margin: 0 4px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .footer {
         max-width: 100%;
