@@ -13,7 +13,7 @@ team". Проект втілено за допомогою технологій 
 
 ---
 
-[Проект створено по дизайнерському проекту у Figma](https://www.figma.com/file/ObvvH4JjCuw8gBzYmiLIII/GreenHarvest?type=design&node-id=0-1&mode=design&t=FDBNrWdb17XZEIlp-0)
+[Сторінку створено по дизайнерському проекту у Figma](https://www.figma.com/file/ObvvH4JjCuw8gBzYmiLIII/GreenHarvest?type=design&node-id=0-1&mode=design&t=FDBNrWdb17XZEIlp-0)
 
 ---
 
